@@ -1,0 +1,145 @@
+/*新导航栏*/
+.navbar-title{
+	margin-top: 0;
+	padding-top: 0;
+}
+.navbar-nav{
+	display: none;
+	text-align: center;
+}
+.nav-trigger{
+	display: block;
+	float: right;
+	width: 50px;height: 50px;
+	background: none;
+	border: none;
+	padding: 0;
+	opacity: 0.7;
+}
+.nav-trigger:focus{
+	opacity: 1;
+}
+.nav-trigger img{
+	width: 50px;
+}
+a.navbar-brand{
+	width: 120px;
+}
+/*主页封面*/
+.cover{
+	min-height: 600px;
+}
+.cover .row{
+	margin: 0 auto; /*桌面端*/
+	padding: 0;
+}
+.mine{
+	margin-top: 0;
+}
+.cover-img img{
+	width: 150px;
+	margin-left: -75px;
+	margin-top: 75px;
+	margin-bottom: 30px;
+}
+.cover-txt h1{
+	font-size: 40px;
+}
+/*简介*/
+.my-text{
+	padding: 30px;
+}
+.mine h3{
+	margin-top: 60px;
+}
+.my-taps img{
+	width: 100%;
+}
+.my-taps li{
+	padding:0;
+}
+/*条幅*/
+.slogan{
+	padding: 30px;
+	margin-top: 0;
+	height: 400px;
+}
+#slogan-txt1{
+	font-size: 
+}
+#slogan-txt2{
+	font-size: ;
+}
+#slogan-txt3{
+	font-size: ;
+}
+
+/*卡片*/
+.cards{
+	margin: 0;
+	padding: 0;
+}
+.card-area{
+	width: 200px;
+}
+.card-img{
+	height: 200px;
+	overflow: hidden;
+}
+.card-img1{
+	/*垂直对齐*/
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cards .col-sm-4{
+	margin: 30px 0 0;
+	padding: 50px 0; 
+	background-color: #fee;
+}
+.card-title,
+.card-txt{
+	margin: 0;
+}
+.subscript{
+	width: 50px;height: 50px;
+	bottom: 52px;
+}
+/*页尾*/
+.web-end{
+	margin-top: 30px;
+	padding: 30px;
+}
+.link-box{
+	margin: 0 5px;
+}
+.web-end-txt{
+	margin-bottom: 0;
+}
+
+
+/*内容部分*/
+.side-bar{
+	display: none;
+}
+.nav-block{
+	height:50px;
+}
+.story-list-item .col-xs-4{
+	padding: 0;
+	width: 50%;
+}
+.story-list-item .col-xs-8{
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 50%;
+}
+.story-list-item .small{
+	margin-right: 0
+}
+
+/*文章*/
+.story-content{
+	padding-right: 20px;
+	padding-left: 20px;
+}

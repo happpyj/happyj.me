@@ -1,0 +1,26 @@
+.small{
+	opacity: 0.7;
+}
+.main-body{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.nav-block{
+	margin-bottom: 0;
+}
+
+.panel{
+	width: 400px;
+	max-width: 100%;
+	margin: 30px auto;
+}
+.panel-body{
+	color: #555;
+	line-height: 1.5;
+	text-align: justify;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.panel-footer{
+	text-align: right;
+}
